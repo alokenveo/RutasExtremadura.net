@@ -1,0 +1,87 @@
+/*------------------ GENERAL ---------------*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2{
+    text-align: center;
+}
+
+
+/*-------------------HEADER------------------*/
+/* Estilos generales del header */
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #103F91;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+#logo a{
+    display: flex;
+    align-items: center;
+}
+
+#logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+#logo h1 {
+    color: white;
+    font-size: 1.5em;
+}
+
+/* Estilos del nav */
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+}
+
+nav ul li {
+    position: relative;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+nav ul li ul{
+    display: none;
+    position: absolute;
+    background-color: #0D326F;
+    padding: 10px;
+    top: 100%;
+    left: 0;
+    min-width: 150px;
+}
+
+nav ul li > a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li ul li {
+    padding: 5px 10px;
+    white-space: nowrap;
+}
+
+nav ul li ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li:hover > ul{
+    display: block;
+}
+
+/*-------------------FOOTER---------------------*/
