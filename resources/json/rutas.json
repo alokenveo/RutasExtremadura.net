@@ -1,0 +1,61 @@
+[
+    {
+        "nombre": "Ruta de los Conquistadores",
+        "descripcion": "Esta ruta histórica rinde homenaje a los conquistadores extremeños que influyeron en el descubrimiento y conquista de América. Con una longitud aproximada de 1200 km, ofrece itinerarios flexibles que pueden realizarse a pie, en moto o en coche, con duraciones de 8 a 14 días o en fines de semana. Incluye mapas, videos y textos para una experiencia inmersiva, además de opciones de descanso y comida local.",
+        "enlace": "https://www.rutaconquistadores.com/",
+        "foto": [
+            "/resources/images/rutas/conquistadores1.jpg",
+            "/resources/images/rutas/conquistadores2.jpg",
+            "/resources/images/rutas/conquistadores3.jpg"
+        ]
+    },
+    {
+        "nombre": "Ruta del Jamón Ibérico",
+        "descripcion": "Es un viaje gastronómico que celebra el famoso jamón ibérico, producido en las dehesas de Extremadura donde los cerdos se alimentan de bellotas. Los visitantes pueden explorar granjas, observar a los cerdos en su hábitat natural y aprender sobre los métodos tradicionales de producción y curado. También se pueden degustar jamón y otros productos derivados en restaurantes locales, disfrutando de la rica cultura y tradiciones asociadas.",
+        "enlace": "https://www.turismoextremadura.com/es/ven-a-extremadura/Ruta-del-Iberico/",
+        "foto": [
+            "/resources/images/rutas/jamon1.jpg",
+            "/resources/images/rutas/jamon2.jpg",
+            "/resources/images/rutas/jamon3.jpg"
+        ]
+    },
+    {
+        "nombre": "Ruta de los Monasterios",
+        "descripcion": "Esta ruta espiritual recorre tres sitios monásticos en Cáceres: el Real Monasterio de Santa María de Guadalup (Patrimonio de la Humanidad por la Unesco), el Monasterio de San Jerónimo de Yuste (donde Carlos V abdicó) y el Convento de Nuestra Señora de la Concepción del Palancar. Cada lugar ofrece una mezcla única de historia, arte y espiritualidad, profundizando en el patrimonio religioso y cultural de la región.",
+        "enlace": "https://www.turismocaceres.org/es/recomendaciones/ruta-monasterios-guadalupe-yuste-y-el-palancar",
+        "foto": [
+            "/resources/images/rutas/monasterios1.jpg",
+            "/resources/images/rutas/monasterios2.jpg"
+        ]
+    },
+    {
+        "nombre": "Ruta de los Castillos",
+        "descripcion": "Un viaje por la provincia de Badajoz que destaca castillos y fortalezas impresionantes, como el Castillo de Barcarrota y la Fortaleza Templaria de Jerez de los Caballeros. Esta ruta ofrece una visión de la arquitectura medieval y la historia, desde influencias templarias hasta herencias moriscas, ideal para amantes de la historia y la arquitectura.",
+        "enlace": "https://hotelmonasteriorocamador.es/planes-actividades/ruta-castillos-badajoz/",
+        "foto": [
+            "/resources/images/rutas/castillos1.jpg",
+            "/resources/images/rutas/castillos2.jpg",
+            "/resources/images/rutas/castillos4.jpg"
+        ]
+    },
+    {
+        "nombre": "Ruta Vía de la Plata",
+        "descripcion": "Sigue la antigua vía romana que conecta Sevilla con Gijón, pasando por ciudades históricas en Extremadura como Monesterio, Zafra, Mérida y Cáceres, ambas declaradas Patrimonio de la Humanidad por la Unesco. Es perfecta para explorar el rico patrimonio y la belleza natural, siguiendo los pasos de los viajeros antiguos.",
+        "enlace": "https://www.turismoextremadura.com/es/explora/Ruta-Via-de-la-Plata/",
+        "foto": [
+            "/resources/images/rutas/plata1.jpg",
+            "/resources/images/rutas/plata2.jpg",
+            "/resources/images/rutas/plata3.jpg"
+        ]
+    },
+    {
+        "nombre": "Ruta de las Dehesas",
+        "descripcion": "Sigue la antigua vía romana que conecta Sevilla con Gijón, pasando por ciudades históricas en Extremadura como Monesterio, Zafra, Mérida y Cáceres, ambas declaradas Patrimonio de la Humanidad por la Unesco. Es perfecta para explorar el rico patrimonio y la belleza natural, siguiendo los pasos de los viajeros antiguos.",
+        "enlace": "https://mototurismo-rfme.com/ruta/ruta-de-las-dehesas/",
+        "foto": [
+            "/resources/images/rutas/dehesas1.jpg",
+            "/resources/images/rutas/dehesas2.jpg",
+            "/resources/images/rutas/dehesas3.jpg"
+        ]
+    }
+]

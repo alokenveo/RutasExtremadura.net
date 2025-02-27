@@ -12,6 +12,13 @@ h2{
     text-align: center;
 }
 
+main{
+    background-color: #D89B00;
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 20px;
+}
+
 
 /*-------------------HEADER------------------*/
 /* Estilos generales del header */
@@ -21,7 +28,6 @@ h2{
     align-items: center;
     background-color: #103F91;
     padding: 10px 20px;
-    margin-bottom: 20px;
 }
 
 #logo a{
