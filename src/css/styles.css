@@ -19,6 +19,129 @@ main{
     padding-top: 20px;
 }
 
+main h1{
+    text-align: center;
+}
+
+/*-------------------CARRUSEL------------------*/
+#carrusel{
+    width: 92%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.carrusel-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+#imagen-carrusel{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/*-------------------RUTAS------------------*/
+#rutas{
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.rutas-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ruta {
+    display: flex;
+    flex-direction: column;
+    background: #f8f8f8;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.ruta-imagenes {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    justify-content: center;
+}
+
+.ruta-imagenes img {
+    height: 150px;
+    border-radius: 5px;
+}
+
+.ruta h3 {
+    margin: 10px 0;
+}
+
+.ruta a {
+    color: #103F91;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.ruta p {
+    color: #333;
+    text-align: justify;
+}
+
+/*-------------------BIBLIOGRAFÍA------------------*/
+#ia{
+    margin-top: 40px;
+}
+
+#ia h2{
+    text-align: left;
+    padding-left: 10px;
+    text-decoration: underline;
+}
+
+.consultas-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.consulta {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.consulta-imagenes {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    justify-content: center;
+}
+
+.consulta-imagenes img {
+    height: 300px;
+    border-radius: 5px;
+}
+
+.consulta h3 {
+    margin: 10px 0;
+    color: #103F91;
+    font-weight: bold;
+}
+
+.consulta p {
+    color: #333;
+    background: #F3F3F3;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
 
 /*-------------------HEADER------------------*/
 /* Estilos generales del header */

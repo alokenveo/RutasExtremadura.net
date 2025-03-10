@@ -1,0 +1,15 @@
+[
+    {
+        "pregunta": "estoy haciendo un portal web, y como voy a tener muchas paginas, no quiero tener que copiar el mismo header y footer todas las veces, es por ello que tengo un header.html y footer.html, que quiero incluir dentro de mi id header",
+        "respuestas": [
+            "/resources/images/consultas/consulta1_1.png"
+        ]
+    },
+    {
+        "pregunta": "cómo puedo hacer para que mi form esté optimizado y valide bien los datos?",
+        "respuestas": [
+            "/resources/images/consultas/consulta2_1.png",
+            "/resources/images/consultas/consulta2_2.png"
+        ]
+    }
+]

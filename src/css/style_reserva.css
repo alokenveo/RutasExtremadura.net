@@ -1,0 +1,86 @@
+#reserva {
+    padding: 20px;
+}
+
+#form-reserva {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+fieldset {
+    background-color: #ffffff;
+    border: 1px solid #103F91;
+    padding: 15px;
+    border-radius: 10px;
+    position: relative;
+}
+
+legend {
+    position: absolute;
+    top: 7px;
+    left: 8px;
+    padding: 0 8px;
+    font-weight: bold;
+    color: #103F91;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333333;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    color: #333333;
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: #103F91;
+    outline: none;
+    background-color: #ffffff;
+}
+
+button {
+    padding: 10px;
+    background-color: #103F91;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0d326f;
+}
+
+.grupo-campos {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.campo {
+    flex: 1;
+}
+
+div.documento {
+    display: flex;
+    gap: 10px;
+}
+
+
+
+
+
