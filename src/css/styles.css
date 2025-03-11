@@ -184,6 +184,10 @@ nav ul li {
     cursor: pointer;
 }
 
+nav ul li:hover{
+    background-color: #0364B8;
+}
+
 nav ul li ul{
     display: none;
     position: absolute;

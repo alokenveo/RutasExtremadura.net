@@ -1,0 +1,60 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+#inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    height: 100vh;
+    padding-top: 100px;
+}
+
+
+#boton-inicio {
+    margin-top: 20px;
+    width: 180px;
+    height: 60px;
+    background-color: #103F91;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    animation: flotar 2s ease-in-out infinite;
+}
+
+@keyframes flotar {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-5px); }
+    100% { transform: translateY(0); }
+}
+
+#boton-inicio:hover {
+    transform: translateY(-10px);
+}
+
+#boton-inicio:active {
+    transform: translateY(2px);
+}
+
+
+/*---------------------------- TABLERO ----------------------------*/
+
+#boton-cancelar{
+    width: 100px;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+#boton-cancelar:hover{
+    background-color: #FF0000;
+    color: white;
+}

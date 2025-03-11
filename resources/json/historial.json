@@ -1,0 +1,60 @@
+{
+    "title": "Ranking Jugadores",
+    "description": "Muestra el ranking de jugadores",
+    "UltimaModificacion": {
+        "@type": "ISODate",
+        "value": "2023-03-09T09:00:00.594Z"
+    },
+    "posiciones": {
+        "primero": {
+            "nombre": "Luis",
+            "valor": "15",
+            "fecha": "2023-03-08T09:00:00.594Z"
+        },
+        "segundo": {
+            "nombre": "Ana",
+            "valor": "16",
+            "fecha": "2023-03-08T09:01:00.594Z"
+        },
+        "tercero": {
+            "nombre": "Juan",
+            "valor": "18",
+            "fecha": "2023-03-08T09:00:00.594Z"
+        },
+        "cuarto": {
+            "nombre": "Margarita",
+            "valor": "18",
+            "fecha": "2023-03-08T09:02:00.594Z"
+        },
+        "quinto": {
+            "nombre": "Lucia",
+            "valor": "20",
+            "fecha": "2023-03-08T09:00:00.594Z"
+        },
+        "sexto": {
+            "nombre": "Javier",
+            "valor": "20",
+            "fecha": "2023-03-08T09:01:00.594Z"
+        },
+        "septimo": {
+            "nombre": "Antonio",
+            "valor": "20",
+            "fecha": "2023-03-08T09:02:00.594Z"
+        },
+        "octavo": {
+            "nombre": "Mario",
+            "valor": "21",
+            "fecha": "2023-03-08T09:00:00.594Z"
+        },
+        "noveno": {
+            "nombre": "Julia",
+            "valor": "22",
+            "fecha": "2023-03-08T09:20:00.594Z"
+        },
+        "decimo": {
+            "nombre": "Macarena",
+            "valor": "22",
+            "fecha": "2023-03-08T09:30:00.594Z"
+        }
+    }
+}

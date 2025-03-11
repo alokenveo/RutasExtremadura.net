@@ -11,5 +11,17 @@
             "/resources/images/consultas/consulta2_1.png",
             "/resources/images/consultas/consulta2_2.png"
         ]
+    },
+    {
+        "pregunta": "quiero que cuando le hago hover el color pase a ser #DDDDDD",
+        "respuestas": [
+            "/resources/images/consultas/consulta3_1.png"
+        ]
+    },
+    {
+        "pregunta": "para ordernar los elementos de esta lista por el valor de cada una de las posiciones, qué se puede hacer??",
+        "respuestas": [
+            "/resources/images/consultas/consulta4_1.png"
+        ]
     }
 ]
