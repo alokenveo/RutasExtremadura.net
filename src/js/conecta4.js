@@ -14,15 +14,13 @@ botonInicio.addEventListener("click", () => {
   iniciarJuego();
 });
 
-// Funciones principales
 function iniciarJuego() {
-  // Ocultar inicio y mostrar juego
   seccionInicio.style.display = "none";
   seccionJuego.style.display = "flex";
   seccionJuego.style.flexDirection = "column";
   seccionJuego.style.alignItems = "center";
   seccionJuego.style.justifyContent = "center";
-  seccionJuego.innerHTML = ""; // Limpiamos por si reiniciamos
+  seccionJuego.innerHTML = "";
 
   // Crear contenedor para el botón cancelar y el indicador de turno
   const contenedor = document.createElement("div");
@@ -32,7 +30,6 @@ function iniciarJuego() {
   contenedor.style.width = "400px";
   contenedor.style.justifyContent = "space-between";
 
-  // Crear indicador de turno
   const indicadorTurno = document.createElement("div");
   indicadorTurno.textContent = "Turno: ";
   const circuloTurno = document.createElement("span");
@@ -40,7 +37,7 @@ function iniciarJuego() {
   circuloTurno.style.width = "20px";
   circuloTurno.style.height = "20px";
   circuloTurno.style.borderRadius = "50%";
-  circuloTurno.style.backgroundColor = turno === "rojo" ? "#B60B1D" : "#047948"; // Color según el turno
+  circuloTurno.style.backgroundColor = turno === "rojo" ? "#B60B1D" : "#047948";
   circuloTurno.style.marginLeft = "10px";
   indicadorTurno.appendChild(circuloTurno);
   contenedor.appendChild(indicadorTurno);

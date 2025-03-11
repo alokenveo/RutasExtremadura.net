@@ -7,6 +7,7 @@
     <title>Reserva | Rutas Extremadura.net</title>
     <link rel="stylesheet" href="/src/css/styles.css">
     <link rel="stylesheet" href="/src/css/style_reserva.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 
 <body>
@@ -118,10 +119,11 @@
                     <label><input type="checkbox" name="extras[]" value="guia"> Guía personalizado</label>
                 </fieldset>
 
-                <div>
+                <div style="display: flexbox">
+                    <label for="terminos">
+                        Acepto los <a href="#">términos y condiciones</a> y la <a href="#">política de privacidad</a> *
+                    </label>
                     <input type="checkbox" id="terminos" name="terminos" required>
-                    <label for="terminos">Acepto los <a href="#">términos y condiciones</a> y la <a href="#">política de
-                            privacidad</a> *</label>
                 </div>
 
                 <!-- ENVÍO -->

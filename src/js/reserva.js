@@ -19,15 +19,13 @@ document.addEventListener("DOMContentLoaded", () => {
             console.error("Error cargando rutas:", error);
         });
 
-    // Validación y envío del formulario
     const form = document.getElementById("form-reserva");
 
     form.addEventListener("submit", (e) => {
-        e.preventDefault(); // Evita envío real
+        e.preventDefault();
 
-        mensajeForm.textContent = ""; // Limpia mensajes anteriores
+        mensajeForm.textContent = "";
 
-        // Obtén los valores
         const nombre = form.nombre.value.trim();
         const email = form.email.value.trim();
         const telefono = form.telefono.value.trim();
@@ -51,22 +49,9 @@ document.addEventListener("DOMContentLoaded", () => {
             return;
         }
 
-        // Si pasa todas las validaciones
         mensajeForm.style.color = "green";
         mensajeForm.textContent = "¡Reserva realizada con éxito! (Simulada)";
 
-        // Aquí iría el código para enviar a servidor si tuvieras backend
-        console.log({
-            nombre,
-            email,
-            telefono,
-            ruta,
-            fecha,
-            personas,
-            comentarios: form.comentarios.value.trim()
-        });
-
-        // Resetea el formulario tras 2 segundos
         setTimeout(() => {
             form.reset();
             mensajeForm.style.color = "red";

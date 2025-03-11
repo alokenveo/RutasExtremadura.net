@@ -1,9 +1,3 @@
-/*
- *
- * CONSULTAS BIBLIOGRAFÍA
- *
- */
-
 const consultasContainer = document.querySelector(".consultas-container");
 
 fetch("/resources/json/consultas.json")
@@ -15,8 +9,8 @@ fetch("/resources/json/consultas.json")
 
       //Titulo de la consulta
       const titulo = document.createElement("h3");
-    titulo.textContent = `Consulta ${consultas.indexOf(consulta) + 1}`;
-    consultaDiv.appendChild(titulo);
+      titulo.textContent = `Consulta ${consultas.indexOf(consulta) + 1}`;
+      consultaDiv.appendChild(titulo);
 
       // Pregunta de la consulta
       const pregunta = document.createElement("p");
@@ -29,14 +23,13 @@ fetch("/resources/json/consultas.json")
         const img = document.createElement("img");
         img.src = imgSrc;
         img.alt = `Imagen de la respuesta`;
+        img.style.maxWidth = "70%";
         imagenesDiv.appendChild(img);
       });
 
-      // Agregar elementos al div principal
       consultaDiv.appendChild(pregunta);
       consultaDiv.appendChild(imagenesDiv);
 
-      // Insertar en el contenedor
       consultasContainer.appendChild(consultaDiv);
     });
   })

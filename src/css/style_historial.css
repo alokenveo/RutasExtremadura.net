@@ -1,19 +1,42 @@
 .tabla-historial {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 10px;
+    margin-top: 20px;
+    background-color: #ffffff; /* Fondo blanco */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .tabla-historial th,
 .tabla-historial td {
-    border: 1px solid #ddd;
-    padding: 8px;
+    border: 1px solid #103F91;
+    padding: 12px 15px;
     text-align: center;
+    font-size: 1rem;
 }
 
 .tabla-historial th {
-    background-color: #f4f4f4;
+    background-color: #103F91;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
 }
+
+.tabla-historial tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.tabla-historial tr:hover {
+    background-color: #e6f0ff;
+    cursor: pointer;
+}
+
+.tabla-historial td {
+    color: #333333;
+    transition: background-color 0.3s ease;
+}
+
 
 
 #historial{
