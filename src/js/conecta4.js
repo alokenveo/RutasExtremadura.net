@@ -54,6 +54,14 @@ function iniciarJuego() {
   });
   contenedor.appendChild(botonCancelar);
 
+  // Contenedor del tablero y las fichas animadas
+  const tableroContainer = document.createElement("div");
+  tableroContainer.classList.add("tablero-container");
+  tableroContainer.style.position = "relative";
+  tableroContainer.style.width = `${ncol * 60}px`;
+  tableroContainer.style.height = `${nfilas * 60}px`;
+  tableroContainer.style.marginBottom = "20px";
+
   // Crear tablero
   const tabla = document.createElement("table");
   tabla.id = "tablero";
@@ -83,7 +91,8 @@ function iniciarJuego() {
     tabla.appendChild(tr);
   }
 
-  seccionJuego.appendChild(tabla);
+  tableroContainer.appendChild(tabla);
+  seccionJuego.appendChild(tableroContainer);
 
   // Inicializar matriz lógica
   iniciarMatriz();
@@ -113,27 +122,53 @@ function mover(event) {
     return;
   }
 
-  // Actualizamos la matriz lógica
   matriz[filaLibre][col] = turno === "rojo" ? 1 : 2;
 
-  // Actualizamos el tablero visual
-  const celda = document.querySelector(
-    `td[data-fila="${filaLibre}"][data-col="${col}"]`
-  );
-  const imagen = turno === "rojo" ? "rojo.png" : "verde.png";
-  celda.style.backgroundImage = `url("/resources/images/conecta4/${imagen}")`;
+  // Creamos la imagen de la ficha
+  const ficha = document.createElement("img");
+  ficha.src = `/resources/images/conecta4/${
+    turno === "rojo" ? "rojo.png" : "verde.png"
+  }`;
+  ficha.style.position = "absolute";
+  ficha.style.width = "60px";
+  ficha.style.height = "60px";
+  ficha.style.left = `${col * 60}px`; // columna * ancho de celda
+  ficha.style.top = `-60px`; // empieza fuera del tablero
 
-  // Comprobamos si hay ganador
-  if (comprobar(filaLibre, col)) {
-    setTimeout(() => {
-      alert(`¡Ganó ${turno.toUpperCase()}!`);
-      reiniciar();
-    }, 100);
-    return;
-  }
+  // Contenedor del tablero
+  const tableroContainer = document.querySelector(".tablero-container");
+  tableroContainer.appendChild(ficha);
 
-  // Cambiar turno
-  cambiarTurno();
+  // Animación de caída
+  const destinoY = filaLibre * 60;
+  ficha.animate([{ top: "-60px" }, { top: `${destinoY}px` }], {
+    duration: 1000, // velocidad de la caída
+    easing: "ease-out",
+  });
+
+  // Al terminar la animación, posicionamos la ficha fija
+  setTimeout(() => {
+    const celda = document.querySelector(
+      `td[data-fila="${filaLibre}"][data-col="${col}"]`
+    );
+    celda.style.backgroundImage = `url("/resources/images/conecta4/${
+      turno === "rojo" ? "rojo.png" : "verde.png"
+    }")`;
+
+    // Quitamos la ficha animada
+    ficha.remove();
+
+    // Comprobamos ganador
+    if (comprobar(filaLibre, col)) {
+      setTimeout(() => {
+        alert(`¡Ganó ${turno.toUpperCase()}!`);
+        reiniciar();
+      }, 100);
+      return;
+    }
+
+    cambiarTurno();
+  }, 900);
 }
 
 function cambiarTurno() {

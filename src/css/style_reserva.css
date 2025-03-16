@@ -81,7 +81,20 @@ div.documento {
     gap: 10px;
 }
 
+.servicios{
+    display: flex;
+    align-items: center;
+    padding: 2px 0px;
+}
 
+.servicios input {
+    width: 2%;
+    margin-top: 0;
+    margin-right: 1px;
+}
 
-
-
+#terminos{
+    width: 2%;
+    margin-left: 15px;
+    margin-top: 0;
+}

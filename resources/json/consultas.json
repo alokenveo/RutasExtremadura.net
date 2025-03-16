@@ -8,50 +8,57 @@
     {
         "pregunta": "quiero que cuando le hago hover el color pase a ser #DDDDDD",
         "respuestas": [
-            "/resources/images/consultas/consulta3_1.png"
+            "/resources/images/consultas/consulta2_1.png"
         ]
     },
     {
         "pregunta": "para ordernar los elementos de esta lista por el valor de cada una de las posiciones, qué se puede hacer??",
         "respuestas": [
-            "/resources/images/consultas/consulta4_1.png"
+            "/resources/images/consultas/consulta3_1.png"
         ]
     },
     {
         "pregunta": "cómo sería un método reiniciar para este juego conecta4??",
         "respuestas": [
-            "/resources/images/consultas/consulta5_1.png"
+            "/resources/images/consultas/consulta4_1.png"
         ]
     },
     {
         "pregunta": "con este fetch he obtenido unos datos, y ahora quiero mostrarlos en una tabla, la parte del cuerpo, cómo puedo hacerlo??",
         "respuestas": [
-            "/resources/images/consultas/consulta6_1.png"
+            "/resources/images/consultas/consulta5_1.png"
         ]
     },
     {
         "pregunta": "ayudame a hacer mi tabla .tabla-historial más bonita, pero el fondo debe ser blanco y el color de las lineas #103F91, salvo eso puedes tomarte otra licencia creativa",
         "respuestas": [
-            "/resources/images/consultas/consulta7_1.png",
-            "/resources/images/consultas/consulta7_2.png"
+            "/resources/images/consultas/consulta6_1.png",
+            "/resources/images/consultas/consulta6_2.png"
         ]
     },
     {
         "pregunta": "cuál es la manera de hacer que mi footer sea responsivo, osea, si la pantalla se hace pequeña, que los elementos se acomoden uno debajo del otro",
         "respuestas": [
-            "/resources/images/consultas/consulta8_1.png"
+            "/resources/images/consultas/consulta7_1.png"
         ]
     },
     {
         "pregunta": "quiero usar bootstrap icons pero no sé qué pasa que los enlaces de bootstrap no funcionan",
         "respuestas": [
-            "/resources/images/consultas/consulta9_1.png"
+            "/resources/images/consultas/consulta8_1.png"
         ]
     },
     {
         "pregunta": "quiero hacer que la función se cambiarImagen() se ejecute cada cierto tiempo, como segundos, hay una manera?",
         "respuestas": [
-            "/resources/images/consultas/consulta10_1.png"
+            "/resources/images/consultas/consulta9_1.png"
+        ]
+    },
+    {
+        "pregunta": "si quiero crear una especie de animaión simulando lo que tengo ahora cómo lo puedo hacer??",
+        "respuestas": [
+            "/resources/images/consultas/consulta10_1.png",
+            "/resources/images/consultas/consulta10_2.png"
         ]
     }
 ]

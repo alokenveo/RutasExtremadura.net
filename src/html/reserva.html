@@ -114,13 +114,13 @@
                 <!-- SERVICIOS EXTRAS -->
                 <fieldset>
                     <legend>Servicios Extras</legend>
-                    <label><input type="checkbox" name="extras[]" value="comida"> Comida incluida</label>
-                    <label><input type="checkbox" name="extras[]" value="equipo"> Equipo de senderismo</label>
-                    <label><input type="checkbox" name="extras[]" value="guia"> Guía personalizado</label>
+                    <label class="servicios"><input type="checkbox" name="extras[]" value="comida"> Comida incluida</label>
+                    <label class="servicios"><input type="checkbox" name="extras[]" value="equipo"> Equipo de senderismo</label>
+                    <label class="servicios"><input type="checkbox" name="extras[]" value="guia"> Guía personalizado</label>
                 </fieldset>
 
-                <div style="display: flexbox">
-                    <label for="terminos">
+                <div style="display: flex; align-items: center">
+                    <label for="terminos" style="margin-top: 0">
                         Acepto los <a href="#">términos y condiciones</a> y la <a href="#">política de privacidad</a> *
                     </label>
                     <input type="checkbox" id="terminos" name="terminos" required>

@@ -19,6 +19,20 @@ document.addEventListener("DOMContentLoaded", () => {
             console.error("Error cargando rutas:", error);
         });
 
+    const inputTelf= document.getElementById("telefono");
+    inputTelf.addEventListener("input", () => {
+        inputTelf.value = inputTelf.value.replace(/\D/g, "").slice(0, 9);
+    });
+
+    const InputNumDocumento = document.getElementById("num-documento");
+    InputNumDocumento.addEventListener("input", () => {
+        let valor = InputNumDocumento.value.toUpperCase();
+        let primeraLetra = valor.charAt(0).replace(/[^A-Z]/g, "");
+        let numeros = valor.slice(1).replace(/\D/g, "").slice(0, 7);
+        
+        InputNumDocumento.value = primeraLetra + numeros
+    });
+
     const form = document.getElementById("form-reserva");
 
     form.addEventListener("submit", (e) => {
@@ -36,11 +50,6 @@ document.addEventListener("DOMContentLoaded", () => {
         // Validaciones básicas
         if (!nombre || !email || !telefono || !ruta || !fecha || !personas) {
             mensajeForm.textContent = "Por favor, rellena todos los campos obligatorios.";
-            return;
-        }
-
-        if (!/^[0-9]{9}$/.test(telefono)) {
-            mensajeForm.textContent = "El teléfono debe tener 9 dígitos numéricos.";
             return;
         }
 

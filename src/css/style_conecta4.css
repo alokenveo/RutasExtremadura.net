@@ -58,3 +58,17 @@ html, body {
     background-color: #FF0000;
     color: white;
 }
+
+.tablero-container {
+    position: relative;
+    margin: 0 auto;
+  }
+  
+  #tablero {
+    z-index: 1;
+  }
+  
+  .tablero-container img {
+    z-index: 2;
+  }
+  
